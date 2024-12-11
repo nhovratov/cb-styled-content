@@ -7,7 +7,7 @@ basics:
   - FluidStyledContent/LinksPalette
   - FluidStyledContent/CategoriesTab
 fields:
-  - identifier: FluidStyledContent/HeaderPalette
+  - identifier: FluidStyledContent/HeadersPalette
     type: Basic
   - identifier: bullets_type
     type: SelectNumber

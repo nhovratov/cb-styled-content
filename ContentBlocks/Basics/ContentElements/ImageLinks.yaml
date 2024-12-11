@@ -1,0 +1,9 @@
+identifier: FluidStyledContent/ImageLinks
+fields:
+  - identifier: image_links_palette
+    type: Palette
+    label: LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.imagelinks
+    fields:
+      - identifier: image_zoom
+        useExistingField: true
+        label: LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:image_zoom_formlabel

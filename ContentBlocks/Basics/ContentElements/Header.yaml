@@ -1,4 +1,4 @@
-identifier: FluidStyledContent/Header
+identifier: FluidStyledContent/HeaderPalette
 fields:
   - identifier: header_palette
     type: Palette

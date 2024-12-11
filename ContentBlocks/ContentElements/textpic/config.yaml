@@ -1,0 +1,24 @@
+name: fluid-styled-content/textpic
+typeName: textpic
+group: default
+prefixFields: false
+basics:
+  - FluidStyledContent/AppearancePalette
+  - FluidStyledContent/LinksPalette
+  - FluidStyledContent/CategoriesTab
+fields:
+  - identifier: FluidStyledContent/HeadersPalette
+    type: Basic
+  - identifier: bodytext
+    useExistingField: true
+    enableRichtext: true
+  - identifier: images_tab
+    type: Tab
+  - identifier: image
+    useExistingField: true
+  - identifier: FluidStyledContent/MediaAdjustments
+    type: Basic
+  - identifier: FluidStyledContent/GallerySettings
+    type: Basic
+  - identifier: FluidStyledContent/ImageLinks
+    type: Basic
