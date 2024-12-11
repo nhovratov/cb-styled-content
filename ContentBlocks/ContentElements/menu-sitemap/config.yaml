@@ -1,0 +1,11 @@
+name: fluid-styled-content/menu-sitemap
+typeName: menu_sitemap
+group: menu
+prefixFields: false
+basics:
+  - FluidStyledContent/Appearance
+  - FluidStyledContent/Links
+  - FluidStyledContent/Categories
+fields:
+  - identifier: FluidStyledContent/Headers
+    type: Basic
