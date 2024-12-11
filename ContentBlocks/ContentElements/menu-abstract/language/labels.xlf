@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file datatype="plaintext" original="labels.xlf" source-language="en" date="2024-12-11T17:26:04+00:00" product-name="fluid-styled-content/menu-abstract">
+		<header/>
+		<body>
+			<trans-unit id="title">
+				<source>Abstracts</source>
+			</trans-unit>
+			<trans-unit id="description">
+				<source>Menu of subpages of selected pages including abstracts</source>
+			</trans-unit>
+			<trans-unit id="pages.label">
+				<source>Selected Pages</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
