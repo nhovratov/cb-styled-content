@@ -1,0 +1,13 @@
+name: fluid-styled-content/menu-subpages
+typeName: menu_subpages
+group: menu
+prefixFields: false
+basics:
+  - FluidStyledContent/Appearance
+  - FluidStyledContent/Links
+  - FluidStyledContent/Categories
+fields:
+  - identifier: FluidStyledContent/Headers
+    type: Basic
+  - identifier: pages
+    useExistingField: true
