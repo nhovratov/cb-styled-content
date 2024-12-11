@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file datatype="plaintext" original="labels.xlf" source-language="en" date="2024-12-11T16:00:09+00:00" product-name="fluid-styled-content/table">
+		<header/>
+		<body>
+			<trans-unit id="title">
+				<source>Table</source>
+			</trans-unit>
+			<trans-unit id="description">
+				<source>A simple table.</source>
+			</trans-unit>
+			<trans-unit id="bodytext.label">
+				<source>Table content</source>
+			</trans-unit>
+			<trans-unit id="table_delimiter.label">
+				<source>Field Delimiter</source>
+			</trans-unit>
+			<trans-unit id="table_delimiter.items.124.label">
+				<source>| (Pipe)</source>
+			</trans-unit>
+			<trans-unit id="table_delimiter.items.59.label">
+				<source>; (Semicolon)</source>
+			</trans-unit>
+			<trans-unit id="table_delimiter.items.58.label">
+				<source>: (Colon)</source>
+			</trans-unit>
+			<trans-unit id="table_delimiter.items.44.label">
+				<source>, (Comma)</source>
+			</trans-unit>
+			<trans-unit id="table_delimiter.items.9.label">
+				<source>⇥ (Tab)</source>
+			</trans-unit>
+			<trans-unit id="table_enclosure.label">
+				<source>Text enclosure</source>
+			</trans-unit>
+			<trans-unit id="table_enclosure.items.0.label">
+				<source>None</source>
+			</trans-unit>
+			<trans-unit id="table_enclosure.items.39.label">
+				<source>&#039; (Single quotes)</source>
+			</trans-unit>
+			<trans-unit id="table_enclosure.items.34.label">
+				<source>&quot; (Double quotes)</source>
+			</trans-unit>
+			<trans-unit id="table_caption.label">
+				<source>Table caption</source>
+			</trans-unit>
+			<trans-unit id="palettes.table_layout_palette.label">
+				<source>Table Layout</source>
+			</trans-unit>
+			<trans-unit id="cols.label">
+				<source>Columns</source>
+			</trans-unit>
+			<trans-unit id="cols.items.0.label">
+				<source>Auto</source>
+			</trans-unit>
+			<trans-unit id="table_class.label">
+				<source>Table style</source>
+			</trans-unit>
+			<trans-unit id="table_class.items.label">
+				<source>Default</source>
+			</trans-unit>
+			<trans-unit id="table_class.items.striped.label">
+				<source>Striped</source>
+			</trans-unit>
+			<trans-unit id="table_class.items.bordered.label">
+				<source>Bordered</source>
+			</trans-unit>
+			<trans-unit id="table_header_position.label">
+				<source>Table header position</source>
+			</trans-unit>
+			<trans-unit id="table_header_position.items.0.label">
+				<source>No header</source>
+			</trans-unit>
+			<trans-unit id="table_header_position.items.1.label">
+				<source>Top</source>
+			</trans-unit>
+			<trans-unit id="table_header_position.items.2.label">
+				<source>Left</source>
+			</trans-unit>
+			<trans-unit id="table_tfoot.label">
+				<source>Use table footer (wrap last row with &lt;tfoot&gt; tags)</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
