@@ -1,6 +1,6 @@
 {
 	"name": "typo3/cms-fluid-styled-content",
-	"type": "typo3-cms-framework",
+	"type": "typo3-cms-extension",
 	"description": "TYPO3 CMS Fluid Styled Content - Fluid templates for TYPO3 content elements.",
 	"homepage": "https://typo3.org",
 	"license": ["GPL-2.0-or-later"],
@@ -16,12 +16,19 @@
 		"source": "https://github.com/typo3/typo3"
 	},
 	"config": {
-		"sort-packages": true
+		"sort-packages": true,
+		"allow-plugins": {
+			"typo3/class-alias-loader": true,
+			"typo3/cms-composer-installers": true
+		},
+		"vendor-dir": ".Build/vendor",
+		"bin-dir": ".Build/bin"
 	},
 	"require": {
-		"typo3/cms-core": "13.4.*@dev",
-		"typo3/cms-fluid": "13.4.*@dev",
-		"typo3/cms-frontend": "13.4.*@dev"
+		"friendsoftypo3/content-blocks": "^1",
+		"typo3/cms-core": "^13.4",
+		"typo3/cms-fluid": "^13.4",
+		"typo3/cms-frontend": "^13.4"
 	},
 	"conflict": {
 		"typo3/cms": "*"
@@ -31,6 +38,7 @@
 			"dev-main": "13.4.x-dev"
 		},
 		"typo3/cms": {
+			"web-dir": ".Build/public",
 			"Package": {
 				"partOfFactoryDefault": true
 			},
