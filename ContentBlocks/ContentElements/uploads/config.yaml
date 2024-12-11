@@ -1,0 +1,78 @@
+name: fluid-styled-content/uploads
+typeName: uploads
+group: lists
+prefixFields: false
+basics:
+  - FluidStyledContent/Appearance
+  - FluidStyledContent/Links
+  - FluidStyledContent/Categories
+fields:
+  - identifier: FluidStyledContent/Headers
+    type: Basic
+  - identifier: uploads_palette
+    type: Palette
+    fields:
+      - identifier: media
+        useExistingField: true
+      - type: Linebreak
+      - identifier: file_collections
+        type: Relation
+        localizeReferencesAtParentLocalization: true
+        allowed: 'sys_file_collection'
+        foreign_table: 'sys_file_collection'
+        size: 5
+        fieldControl:
+          addRecord:
+            disabled: false
+            options:
+              title: 'LLL:EXT:core/Resources/Private/Language/locallang_tca.xlf:file_mountpoints_add_title'
+              setValue: prepend
+      - type: Linebreak
+      - identifier: filelink_sorting
+        type: Select
+        renderType: selectSingle
+        dbFieldLength: 64
+        items:
+          - value: ''
+          - value: 'extension'
+          - value: 'name'
+          - value: 'type'
+          - value: 'size'
+          - value: 'creation_date'
+          - value: 'modification_date'
+          - value: 'title'
+      - identifier: filelink_sorting_direction
+        type: Select
+        renderType: selectSingle
+        dbFieldLength: 4
+        items:
+          - label: ''
+            value: ''
+          - value: 'asc'
+          - value: 'desc'
+      - identifier: target
+        type: Text
+        max: 30
+        size: 20
+        eval: 'trim'
+        default: ''
+        valuePicker:
+          items:
+            - ['LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:target.I.1', '_blank']
+  - identifier: uploadslayout
+    type: Palette
+    fields:
+      - identifier: filelink_size
+        type: Checkbox
+        renderType: checkboxToggle
+      - identifier: uploads_description
+        type: Checkbox
+        renderType: checkboxToggle
+        default: 0
+      - identifier: uploads_type
+        type: SelectNumber
+        default: 0
+        items:
+          - value: 0
+          - value: 1
+          - value: 2

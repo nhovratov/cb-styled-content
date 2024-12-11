@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file datatype="plaintext" original="labels.xlf" source-language="en" date="2024-12-11T16:39:44+00:00" product-name="fluid-styled-content/uploads">
+		<header/>
+		<body>
+			<trans-unit id="title">
+				<source>File Links</source>
+			</trans-unit>
+			<trans-unit id="description">
+				<source>Makes a list of files for download.</source>
+			</trans-unit>
+			<trans-unit id="palettes.uploads_palette.label">
+				<source>Files</source>
+			</trans-unit>
+			<trans-unit id="media.label">
+				<source>Select single files</source>
+			</trans-unit>
+			<trans-unit id="file_collections.label">
+				<source>Select file collections</source>
+			</trans-unit>
+			<trans-unit id="filelink_sorting.label">
+				<source>Sort file list</source>
+			</trans-unit>
+			<trans-unit id="filelink_sorting.items.label">
+				<source>no sorting</source>
+			</trans-unit>
+			<trans-unit id="filelink_sorting.items.extension.label">
+				<source>by file extension</source>
+			</trans-unit>
+			<trans-unit id="filelink_sorting.items.name.label">
+				<source>by filename</source>
+			</trans-unit>
+			<trans-unit id="filelink_sorting.items.type.label">
+				<source>by file type</source>
+			</trans-unit>
+			<trans-unit id="filelink_sorting.items.size.label">
+				<source>by file size</source>
+			</trans-unit>
+			<trans-unit id="filelink_sorting.items.creation_date.label">
+				<source>by file creation date</source>
+			</trans-unit>
+			<trans-unit id="filelink_sorting.items.modification_date.label">
+				<source>by file modification date</source>
+			</trans-unit>
+			<trans-unit id="filelink_sorting.items.title.label">
+				<source>by file metadata title</source>
+			</trans-unit>
+			<trans-unit id="filelink_sorting_direction.label">
+				<source>Sorting direction</source>
+			</trans-unit>
+			<trans-unit id="filelink_sorting_direction.items.asc.label">
+				<source>Ascending (default)</source>
+			</trans-unit>
+			<trans-unit id="filelink_sorting_direction.items.desc.label">
+				<source>Descending</source>
+			</trans-unit>
+			<trans-unit id="target.label">
+				<source>Target</source>
+			</trans-unit>
+			<trans-unit id="palettes.uploadslayout.label">
+				<source>Filelinks Layout</source>
+			</trans-unit>
+			<trans-unit id="filelink_size.label">
+				<source>Display File Size Information</source>
+			</trans-unit>
+			<trans-unit id="uploads_description.label">
+				<source>Display description</source>
+			</trans-unit>
+			<trans-unit id="uploads_type.label">
+				<source>Display file/icon/thumbnail</source>
+			</trans-unit>
+			<trans-unit id="uploads_type.items.0.label">
+				<source>Only file name</source>
+			</trans-unit>
+			<trans-unit id="uploads_type.items.1.label">
+				<source>File name and file extension icon</source>
+			</trans-unit>
+			<trans-unit id="uploads_type.items.2.label">
+				<source>File name and thumbnail (if possible)</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
