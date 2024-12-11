@@ -1,0 +1,19 @@
+name: fluid-styled-content/menu-categorized-pages
+typeName: menu_categorized_pages
+group: menu
+prefixFields: false
+basics:
+  - FluidStyledContent/Appearance
+  - FluidStyledContent/Links
+  - FluidStyledContent/Categories
+fields:
+  - identifier: FluidStyledContent/Headers
+    type: Basic
+  - identifier: selected_categories
+    useExistingField: true
+    minitems: 1
+  - identifier: category_field
+    useExistingField: true
+    minitems: 1
+    itemsProcConfig:
+      table: 'pages'
