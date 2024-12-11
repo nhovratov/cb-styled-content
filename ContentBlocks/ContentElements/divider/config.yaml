@@ -1,0 +1,12 @@
+name: fluid-styled-content/divider
+typeName: div
+group: special
+prefixFields: false
+saveAndClose: true
+basics:
+  - FluidStyledContent/Appearance
+  - FluidStyledContent/Links
+  - FluidStyledContent/Categories
+fields:
+  - identifier: header
+    useExistingField: true
