@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file datatype="plaintext" original="labels.xlf" source-language="en" date="2024-12-11T11:17:32+00:00" product-name="typo3/bullets">
+		<header/>
+		<body>
+			<trans-unit id="title">
+				<source>Bullet List</source>
+			</trans-unit>
+			<trans-unit id="description">
+				<source>A single bullet list.</source>
+			</trans-unit>
+			<trans-unit id="bullets_type.label">
+				<source>Type of bullets</source>
+			</trans-unit>
+			<trans-unit id="bullets_type.items.0.label">
+				<source>Unordered list (bullets)</source>
+			</trans-unit>
+			<trans-unit id="bullets_type.items.1.label">
+				<source>Ordered list (numbers)</source>
+			</trans-unit>
+			<trans-unit id="bullets_type.items.2.label">
+				<source>Definition list</source>
+			</trans-unit>
+			<trans-unit id="bodytext.label">
+				<source>Bullet List</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

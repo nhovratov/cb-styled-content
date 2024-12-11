@@ -1,0 +1,21 @@
+name: fluid-styled-content/bullets
+typeName: bullets
+group: lists
+prefixFields: false
+basics:
+  - FluidStyledContent/AppearancePalette
+  - FluidStyledContent/LinksPalette
+  - FluidStyledContent/CategoriesTab
+fields:
+  - identifier: FluidStyledContent/HeaderPalette
+    type: Basic
+  - identifier: bullets_type
+    type: SelectNumber
+    items:
+      - value: 0
+      - value: 1
+      - value: 2
+    default: 0
+  - identifier: bodytext
+    useExistingField: true
+    wrap: off
