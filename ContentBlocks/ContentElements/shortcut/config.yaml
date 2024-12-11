@@ -1,0 +1,16 @@
+name: fluid-styled-content/shortcut
+typeName: shortcut
+group: special
+prefixFields: false
+basics:
+  - FluidStyledContent/Appearance
+  - FluidStyledContent/Links
+  - FluidStyledContent/Categories
+fields:
+  - identifier: header
+    useExistingField: true
+  - identifier: records
+    type: Relation
+    allowed: 'tt_content'
+    size: 5
+    maxitems: 200
