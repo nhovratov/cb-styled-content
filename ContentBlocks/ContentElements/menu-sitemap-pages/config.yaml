@@ -1,0 +1,13 @@
+name: fluid-styled-content/menu-sitemap-pages
+typeName: menu_sitemap_pages
+group: menu
+prefixFields: false
+basics:
+  - FluidStyledContent/Appearance
+  - FluidStyledContent/Links
+  - FluidStyledContent/Categories
+fields:
+  - identifier: FluidStyledContent/Headers
+    type: Basic
+  - identifier: pages
+    useExistingField: true
