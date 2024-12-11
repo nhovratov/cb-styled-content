@@ -19,13 +19,3 @@ fields:
       - identifier: space_after_class
         useExistingField: true
         label: LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:space_after_class_formlabel
-  - identifier: links_palette
-    type: Palette
-    label: LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.appearanceLinks
-    fields:
-      - identifier: sectionIndex
-        useExistingField: true
-        label: LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:sectionIndex_formlabel
-      - identifier: linkToTop
-        useExistingField: true
-        label: LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:linkToTop_formlabel

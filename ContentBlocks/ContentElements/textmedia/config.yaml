@@ -4,6 +4,7 @@ group: default
 prefixFields: false
 basics:
   - FluidStyledContent/Appearance
+  - FluidStyledContent/Links
   - FluidStyledContent/Categories
 fields:
   - identifier: FluidStyledContent/Headers
