@@ -5,9 +5,5 @@ fields:
     label: LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:images
   - identifier: image
     useExistingField: true
-  - identifier: FluidStyledContent/MediaAdjustments
-    type: Basic
-  - identifier: FluidStyledContent/GallerySettings
-    type: Basic
-  - identifier: FluidStyledContent/ImageLinks
+  - identifier: FluidStyledContent/ImageSettings
     type: Basic

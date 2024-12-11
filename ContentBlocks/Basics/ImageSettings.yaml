@@ -1,0 +1,8 @@
+identifier: FluidStyledContent/ImageSettings
+fields:
+  - identifier: FluidStyledContent/MediaAdjustments
+    type: Basic
+  - identifier: FluidStyledContent/GallerySettings
+    type: Basic
+  - identifier: FluidStyledContent/ImageLinks
+    type: Basic

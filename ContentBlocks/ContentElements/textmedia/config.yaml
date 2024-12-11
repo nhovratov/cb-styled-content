@@ -1,0 +1,20 @@
+name: fluid-styled-content/textmedia
+typeName: textmedia
+group: default
+prefixFields: false
+basics:
+  - FluidStyledContent/Appearance
+  - FluidStyledContent/Links
+  - FluidStyledContent/Categories
+fields:
+  - identifier: FluidStyledContent/Headers
+    type: Basic
+  - identifier: bodytext
+    useExistingField: true
+    enableRichtext: true
+  - identifier: media_tab
+    type: Tab
+  - identifier: assets
+    useExistingField: true
+  - identifier: FluidStyledContent/ImageSettings
+    type: Basic
