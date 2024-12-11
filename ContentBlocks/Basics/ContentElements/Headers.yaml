@@ -1,0 +1,26 @@
+identifier: FluidStyledContent/HeaderPalette
+fields:
+  - identifier: header_palette
+    type: Palette
+    label: LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.headers
+    fields:
+      - identifier: header
+        useExistingField: true
+        label: LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:header_formlabel
+      - type: Linebreak
+      - identifier: header_layout
+        useExistingField: true
+        label: LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:header_layout_formlabel
+      - identifier: header_position
+        useExistingField: true
+        label: LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:header_position_formlabel
+      - identifier: date
+        useExistingField: true
+      - type: Linebreak
+      - identifier: header_link
+        useExistingField: true
+        label: LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:header_link_formlabel
+      - type: Linebreak
+      - identifier: subheader
+        useExistingField: true
+        label: LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:subheader_formlabel
