@@ -1,4 +1,4 @@
-identifier: FluidStyledContent/LinksPalette
+identifier: FluidStyledContent/Links
 fields:
   - identifier: links_palette
     type: Palette

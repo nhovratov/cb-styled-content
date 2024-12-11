@@ -1,4 +1,4 @@
-identifier: FluidStyledContent/AppearancePalette
+identifier: FluidStyledContent/Appearance
 fields:
   - identifier: appearance_tab
     type: Tab

@@ -3,11 +3,11 @@ typeName: bullets
 group: lists
 prefixFields: false
 basics:
-  - FluidStyledContent/AppearancePalette
-  - FluidStyledContent/LinksPalette
-  - FluidStyledContent/CategoriesTab
+  - FluidStyledContent/Appearance
+  - FluidStyledContent/Links
+  - FluidStyledContent/Categories
 fields:
-  - identifier: FluidStyledContent/HeadersPalette
+  - identifier: FluidStyledContent/Headers
     type: Basic
   - identifier: bullets_type
     type: SelectNumber
