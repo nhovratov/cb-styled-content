@@ -1,0 +1,32 @@
+identifier: FluidStyledContent/ImageSettings
+fields:
+  - identifier: media_adjustments_palette
+    type: Palette
+    label: LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.mediaAdjustments
+    fields:
+      - identifier: imagewidth
+        useExistingField: true
+        label: LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.mediaAdjustments.imagewidth
+      - identifier: imageheight
+        useExistingField: true
+        label: LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.mediaAdjustments.imageheight
+      - identifier: imageborder
+        useExistingField: true
+        label: LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.mediaAdjustments.imageborder
+  - identifier: gallery_settings_palette
+    type: Palette
+    label: LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.gallerySettings
+    fields:
+      - identifier: imageorient
+        useExistingField: true
+        label: LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:imageorient_formlabel
+      - identifier: imagecols
+        useExistingField: true
+        label: LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:imagecols_formlabel
+  - identifier: image_links_palette
+    type: Palette
+    label: LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.imagelinks
+    fields:
+      - identifier: image_zoom
+        useExistingField: true
+        label: LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:image_zoom_formlabel
