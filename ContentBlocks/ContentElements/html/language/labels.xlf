@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file datatype="plaintext" original="labels.xlf" source-language="en" date="2024-12-11T17:04:44+00:00" product-name="fluid-styled-content/html">
+		<header/>
+		<body>
+			<trans-unit id="title">
+				<source>Plain HTML</source>
+			</trans-unit>
+			<trans-unit id="description">
+				<source>With this element you can insert raw HTML code on the page.</source>
+			</trans-unit>
+			<trans-unit id="header.label">
+				<source>Name (not visible in frontend)</source>
+			</trans-unit>
+			<trans-unit id="header.description">
+				<source>The name won&#039;t be displayed as header above the element, but will be used as reference in menus.</source>
+			</trans-unit>
+			<trans-unit id="bodytext.label">
+				<source>HTML Code</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

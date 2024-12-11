@@ -1,0 +1,16 @@
+name: fluid-styled-content/html
+typeName: html
+group: special
+prefixFields: false
+basics:
+  - FluidStyledContent/Appearance
+  - FluidStyledContent/Links
+  - FluidStyledContent/Categories
+fields:
+  - identifier: header
+    useExistingField: true
+  - identifier: bodytext
+    useExistingField: true
+    renderType: codeEditor
+    wrap: off
+    format: html
