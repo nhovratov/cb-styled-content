@@ -4,10 +4,10 @@
 		<header/>
 		<body>
 			<trans-unit id="title">
-				<source>Text &amp; Images</source>
+				<source>Images Only</source>
 			</trans-unit>
 			<trans-unit id="description">
-				<source>Any number of images wrapped right around a regular text element.</source>
+				<source>Any number of images aligned in columns and rows with a caption.</source>
 			</trans-unit>
 		</body>
 	</file>

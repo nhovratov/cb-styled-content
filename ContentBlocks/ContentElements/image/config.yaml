@@ -1,5 +1,5 @@
-name: fluid-styled-content/textpic
-typeName: textpic
+name: fluid-styled-content/image
+typeName: image
 group: default
 prefixFields: false
 basics:
@@ -9,8 +9,5 @@ basics:
 fields:
   - identifier: FluidStyledContent/Headers
     type: Basic
-  - identifier: bodytext
-    useExistingField: true
-    enableRichtext: true
   - identifier: FluidStyledContent/Images
     type: Basic
